@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46ee5987-62a4-4f32-9419-a1e666e7a515">
+  <producedTypes>
+    <objectType typeId="b5b94bef-816a-4128-bf43-4f866b468b4c" valueTypeId="144a0d36-49ac-49ae-9627-2dbd9c5be3a2"/>
+    <refType typeId="6308b88e-3d51-4164-b3ea-afa25b3847db" valueTypeId="a4014607-0a4a-48e1-85f8-14e5d82d9cdf"/>
+    <selectionType typeId="a89d900d-2af9-4045-a44b-2f2eaacbc344" valueTypeId="6e9c3844-53e3-483a-8362-ec9bf7478167"/>
+    <listType typeId="7ddd2454-382b-4591-bd78-7e7262e57d06" valueTypeId="7d4d09ce-1ccb-40ae-aa94-fe776001f587"/>
+    <managerType typeId="2cfdcd9e-ea5a-453d-860e-377d366b0bd7" valueTypeId="2b4e538e-1cd9-46f5-bdf7-b6d735cb12ea"/>
+  </producedTypes>
+  <name>Тестовый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестовый</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Тестовый.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="b1590a8f-2afa-4b49-ab2f-05a15135610c">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
